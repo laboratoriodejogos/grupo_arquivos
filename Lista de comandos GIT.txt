@@ -1,14 +1,14 @@
-1 - Criar conta no BitBucket: https://bitbucket.org/product
+1 - Criar conta no GitHUb ou BitBucket: https://bitbucket.org/product
 
 2 - Abrir o GIT BASH
-	Crie uma pasta no diretÛrio do aluno: exemplo: e:\Java  (exemplo)
+	Crie uma pasta no diret√≥rio do aluno: exemplo: e:\Java  (exemplo)
 
 	digite no Git BASH:
 	cd e:
 	cd Java/  (exemplo)
 	
 3 - Configurar o proxy no git:
-	COMANDO PADR√O (n„o executar este):
+	COMANDO PADR√ÉO (n√£o executar este):
 	git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
 
 	EXEMPLO: (devem ser executado os DOIS comandos)
@@ -19,7 +19,7 @@
 	git config --global --get http.proxy
 	git config --global --get https.proxy
 
-	Comando para LIMPAR as configuraÁıes do proxy (no final da aula):
+	Comando para LIMPAR as configura√ß√µes do proxy (no final da aula):
 	git config --global --unset http.proxy
 	git config --global --unset https.proxy
 
@@ -33,35 +33,35 @@
 6 - Clonar repositorio remoto:
 	git clone https://prodanielf@bitbucket.org/prodanielf/sa_3m.git   (exemplo)
 
-7 - Atualizar repositÛrio (dentro do diretÛrio versionado):
+7 - Atualizar reposit√≥rio (dentro do diret√≥rio versionado):
 	git pull origin master
 
 -----------------------------------------------------------------------------------
 
 8 - Para criar um novo repositorio local:
-	// para iniciar o repositÛrio
+	// para iniciar o reposit√≥rio
 	git init
 
 	// para adicionar o versionamento aos arquivos criados ou  modificados
 	git add *
 
-	// para listar os arquivos (se est„o versionados ou n„o)
+	// para listar os arquivos (se est√£o versionados ou n√£o)
 	git status
 	
 	// para determinar o repositorio remoto (destino dos arquivos)
 	git remote add origin <servidor>
 
-	// para efetivar as alteraÁıes no repositÛrio local
-	git commit -m "coment·rio_exemplo"
+	// para efetivar as altera√ß√µes no reposit√≥rio local
+	git commit -m "coment√°rio_exemplo"
 
-	// enviar os arquivos commitados para o repositÛrio remoto
+	// enviar os arquivos commitados para o reposit√≥rio remoto
 	git push origin master
 
 
-9 - Preencher o formul·rio da sua conta (git ou bitbucket)
+9 - Preencher o formul√°rio da sua conta (git ou bitbucket)
 	goo.gl/uQSiG2
 
-	Agora vocÍ deve conferir se os dados est„o no servidor remoto (Bitbucket)
+	Agora voc√™ deve conferir se os dados est√£o no servidor remoto (Bitbucket)
 
 
 10 - Estudo extra!! (veja tudo)
@@ -78,7 +78,7 @@
 	http://blog.virtuacreative.com.br/hospedar-website-gratis-com-github.html
 	
      COMANDOS EXTRAS:
-	ls = listar diretÛrio
+	ls = listar diret√≥rio
 	clear = Limpar tela
 	history -c = limpar comandos anteriores no terminal
 	
