@@ -1,0 +1,94 @@
+1 - Criar conta no BitBucket: https://bitbucket.org/product
+
+2 - Abrir o GIT BASH
+	Crie uma pasta no diretório do aluno: exemplo: e:\Java  (exemplo)
+
+	digite no Git BASH:
+	cd e:
+	cd Java/  (exemplo)
+	
+3 - Configurar o proxy no git:
+	COMANDO PADRÃO (não executar este):
+	git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
+
+	EXEMPLO: (devem ser executado os DOIS comandos)
+	git config --global http.proxy http://RA:SenhaDoAluno@186.251.39.91:3128
+	git config --global https.proxy https://RA:SenhaDoAluno@186.251.39.91:3128
+
+	Para ler o proxy configurado:
+	git config --global --get http.proxy
+	git config --global --get https.proxy
+
+	Comando para LIMPAR as configurações do proxy (no final da aula):
+	git config --global --unset http.proxy
+	git config --global --unset https.proxy
+
+4 - Link com comandos de apoio para GIT
+	http://rogerdudler.github.io/git-guide/index.pt_BR.html
+
+5 - Configurar os seus dados no git:
+	git config --global user.email "you@example.com"
+  	git config --global user.name "Your Name"
+
+6 - Clonar repositorio remoto:
+	git clone https://prodanielf@bitbucket.org/prodanielf/sa_3m.git   (exemplo)
+
+7 - Atualizar repositório (dentro do diretório versionado):
+	git pull origin master
+
+-----------------------------------------------------------------------------------
+
+8 - Para criar um novo repositorio local:
+	// para iniciar o repositório
+	git init
+
+	// para adicionar o versionamento aos arquivos criados ou  modificados
+	git add *
+
+	// para listar os arquivos (se estão versionados ou não)
+	git status
+	
+	// para determinar o repositorio remoto (destino dos arquivos)
+	git remote add origin <servidor>
+
+	// para efetivar as alterações no repositório local
+	git commit -m "comentário_exemplo"
+
+	// enviar os arquivos commitados para o repositório remoto
+	git push origin master
+
+
+9 - Preencher o formulário da sua conta (git ou bitbucket)
+	goo.gl/uQSiG2
+
+	Agora você deve conferir se os dados estão no servidor remoto (Bitbucket)
+
+
+10 - Estudo extra!! (veja tudo)
+	https://try.github.io/levels/1/challenges/1	
+
+	http://rogerdudler.github.io/git-guide/index.pt_BR.html
+	https://pt.wikipedia.org/wiki/Sistema_de_controle_de_vers%C3%B5es
+	https://www.youtube.com/watch?v=C18qzn7j4SM&list=PLQCmSnNFVYnRdgxOC_ufH58NxlmM6VYd1
+	https://www.youtube.com/watch?v=WVLhm1AMeYE&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0
+	https://www.youtube.com/watch?v=UMhskLXJuq4	
+
+	PUBLICAR WEB PAGE GIT
+	https://pages.github.com/
+	http://blog.virtuacreative.com.br/hospedar-website-gratis-com-github.html
+	
+     COMANDOS EXTRAS:
+	ls = listar diretório
+	clear = Limpar tela
+	history -c = limpar comandos anteriores no terminal
+	
+11 - Comandos GIT Extras:
+	Criar arquivo .gitignore (listar arquivos a serem ignorados no versionamento)
+	Entrar no site: https://www.gitignore.io/
+	Escolher o tipo de arquivo, clicar em "Create" e salvar o arquivo exibido.
+	Este arquivo .gitignore deve ester na raiz do projeto versionado
+
+
+	Para verificar os carateres especiais utilizados no PROXY.
+	https://en.wikipedia.org/wiki/Percent-encoding
+
