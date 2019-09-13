@@ -1,4 +1,4 @@
-#Para configurar o GIT em seu computador:
+# Para configurar o GIT em seu computador:
 
 - Passo 1 - Executar o programa **"Git Bash"**
 
@@ -74,7 +74,7 @@ PRONTO. O seu git está configurado.
 
 ----------------------------------------------------------------
 
-##Para iniciar um projeto existente
+## Para iniciar um projeto existente
 
 
 Passo 1 - Configure o seu GIT
@@ -97,7 +97,7 @@ Pronto. O seu repositório já está configurado e pronto para uso.
 --------------------------------------------------------------------
 
 
-##Comandos do GIT
+## Comandos do GIT
 
 	Para criar um novo repositorio local:
 	// para iniciar o repositório
@@ -126,7 +126,7 @@ Pronto. O seu repositório já está configurado e pronto para uso.
 ---------------------------------------------------------------------
 
 
-##CONTEÚDO DE ESTUDO 
+## CONTEÚDO DE ESTUDO 
 
 	Link com comandos de apoio para GIT
 	- http://rogerdudler.github.io/git-guide/index.pt_BR.html
