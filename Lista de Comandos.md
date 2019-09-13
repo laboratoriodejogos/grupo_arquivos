@@ -2,26 +2,31 @@
 
 - Passo 1 - Executar o programa **"Git Bash"**
 
-	Caso **não** tenha o programa em seu computador, realize o download do site: [Links](https://git-scm.com/download/win)
+	Caso **não** tenha o programa em seu computador, realize o download do site: https://git-scm.com/download/win
 		(Utilize a versão Portable)
+		
 		Git for Windows Portable ("thumbdrive edition")
-			32-bit Git for Windows Portable.
-			64-bit Git for Windows Portable.
+			- 32-bit Git for Windows Portable.
+			- 64-bit Git for Windows Portable.
 			
 
 - Passo 2 - Escolha o diretório de trabalho no Git Bash
 	
-	Exemplo: 	cd e:
-			cd jogos
+	Exemplo: 	
+		cd e:
+		cd jogos
 				
 
 - Passo 3 - Configurar o proxy no git (Se estiver em uma rede com PROXY):
 	
 	COMANDO PADRÃO (não executar este):
+	
 	git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
 
 	**EXEMPLO: (devem ser executado os DOIS comandos)**
+	
 	git config --global http.proxy http://RA:SenhaDoAluno@186.251.39.91:3128
+	
 	git config --global https.proxy https://RA:SenhaDoAluno@186.251.39.91:3128
 
 		Se o seu RA é "12345" e sua senha é "OtimoAluno" o seu comando será:
@@ -30,18 +35,23 @@
 
 		
 	**Para ler o proxy configurado:**
+	
 	git config --global --get http.proxy
+	
 	git config --global --get https.proxy
 
 	**Comando para LIMPAR as configurações do proxy (no final da aula):**
+	
 	git config --global --unset http.proxy
+	
 	git config --global --unset https.proxy
 	
 	
 - Passo 4 - Configurar os seus dados no git:
 	
+	
 	**git config --global user.email "you@example.com"**
-  	**git config --global user.name "Your Name"**
+	**git config --global user.name "Your Name"**
 	
 	
 	
