@@ -80,7 +80,9 @@ PRONTO. O seu git está configurado.
 
 
 Passo 1 - Configure o seu GIT
+
 	Exemplo: 
+	
 		- cd e:
 		- cd jogos
 				
