@@ -80,15 +80,16 @@ PRONTO. O seu git está configurado.
 
 
 Passo 1 - Configure o seu GIT
-	Exemplo: 	
-		cd e:
-		cd jogos
+	Exemplo: 
+		- cd e:
+		- cd jogos
 				
 				
 Passo 2 - Escolha o diretório de trabalho
 
 	
 Passo 3 - Clonar repositorio remoto:
+
 	git clone https://github.com/laboratoriodejogos/grupo_arquivos.git   (exemplo)
 
 
