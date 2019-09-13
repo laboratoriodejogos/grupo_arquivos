@@ -47,10 +47,12 @@
 	git config --global --unset https.proxy
 	
 	
+	
 - Passo 4 - Configurar os seus dados no git:
 	
 	
 	**git config --global user.email "you@example.com"**
+	
 	**git config --global user.name "Your Name"**
 	
 	
