@@ -57,10 +57,14 @@
 	
     COMANDOS EXTRAS NO GIT BASH:
 	ls = listar diretório
+	
 	clear = Limpar tela
+	
 	history -c = limpar comandos anteriores no terminal
 	
+	
 	Para verificar os carateres especiais CASO necessite utilizar no PROXY.
+	
 	https://en.wikipedia.org/wiki/Percent-encoding
 	
 	
@@ -74,8 +78,9 @@ PRONTO. O seu git está configurado.
 
 
 Passo 1 - Configure o seu GIT
-	Exemplo: 	cd e:
-				cd jogos
+	Exemplo: 	
+		cd e:
+		cd jogos
 				
 				
 Passo 2 - Escolha o diretório de trabalho
