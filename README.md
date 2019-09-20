@@ -59,13 +59,12 @@
 	
 	
 	
-    COMANDOS EXTRAS NO GIT BASH:
-	ls = listar diretório
-	
-	clear = Limpar tela
-	
-	history -c = limpar comandos anteriores no terminal
-	
+	    COMANDOS EXTRAS NO GIT BASH:
+		
+		ls = listar diretório
+		clear = Limpar tela
+		history -c = limpar comandos anteriores no terminal
+
 	
 	Para verificar os carateres especiais CASO necessite utilizar no PROXY.
 	
@@ -145,13 +144,13 @@ Pronto. O seu repositório já está configurado e pronto para uso.
 	- https://www.youtube.com/watch?v=WVLhm1AMeYE&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0
 	- https://www.youtube.com/watch?v=UMhskLXJuq4	
 
-	**PUBLICAR WEB PAGE GIT**
+	PUBLICAR WEB PAGE GIT
 	- https://pages.github.com/
 	- http://blog.virtuacreative.com.br/hospedar-website-gratis-com-github.html
 	
     
 	
-	**Comandos GIT Extras:**
+	Comandos GIT Extras:
 	Criar arquivo .gitignore (listar arquivos a serem ignorados no versionamento)
 	Entrar no site: https://www.gitignore.io/
 	Escolher o tipo de arquivo, clicar em "Create" e salvar o arquivo exibido.
