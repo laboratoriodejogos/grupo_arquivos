@@ -72,7 +72,9 @@
 	
 	
 	
-PRONTO. O seu git está configurado.
+Pronto!  
+
+O seu git está configurado.
 
 
 ----------------------------------------------------------------
@@ -95,7 +97,8 @@ PRONTO. O seu git está configurado.
 	git clone https://github.com/laboratoriodejogos/grupo_arquivos.git   (exemplo)
 
 
-Pronto! 
+Pronto!
+
 O seu repositório já está configurado e pronto para uso.
 
 
