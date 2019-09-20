@@ -110,26 +110,26 @@ O seu repositório já está configurado e pronto para uso.
 
 	Para criar um novo repositorio local:
 	// para iniciar o repositório
-	**git init**
+	git init
 
 	// para adicionar o versionamento aos arquivos criados ou  modificados
-	**git add * **
+	git add * 
 
 	// para listar os arquivos (se estão versionados ou não)
-	**git status**
+	git status
 	
 	// para determinar o repositorio remoto (destino dos arquivos)
-	**git remote add origin <Endereço do servidor>**
+	git remote add origin <Endereço do servidor>**
 
 	// para efetivar as alterações no repositório local
-	**git commit -m "comentário_exemplo"**
+	git commit -m "comentário_exemplo"
 
 	// enviar os arquivos commitados para o repositório remoto
-	**git push origin master**
+	git push origin master
 
 	
 	//Atualizar repositório (dentro do diretório versionado):
-	**git pull origin master**
+	git pull origin master
 	
 	
 ---------------------------------------------------------------------
@@ -154,9 +154,9 @@ O seu repositório já está configurado e pronto para uso.
     
 	
 	Comandos GIT Extras:
-	Criar arquivo .gitignore (listar arquivos a serem ignorados no versionamento)
-	Entrar no site: https://www.gitignore.io/
-	Escolher o tipo de arquivo, clicar em "Create" e salvar o arquivo exibido.
-	Este arquivo ".gitignore" deve ester na raiz do projeto versionado
+	- Criar arquivo .gitignore (listar arquivos a serem ignorados no versionamento)
+		Entrar no site: https://www.gitignore.io/
+		Escolher o tipo de arquivo, clicar em "Create" e salvar o arquivo exibido.
+		Este arquivo ".gitignore" deve ester na raiz do projeto versionado
 
 
