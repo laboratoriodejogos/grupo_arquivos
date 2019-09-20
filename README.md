@@ -85,9 +85,9 @@ PRONTO. O seu git está configurado.
 				
 - **Passo 2 - Escolha o diretório de trabalho**
 	
-	Exemplo: 
-		- cd e:
-		- cd jogos
+		Exemplo: 
+			- cd e:
+			- cd jogos
 	
 	
 - **Passo 3 - Clonar repositorio remoto:**
