@@ -5,6 +5,7 @@
 - **Passo 1 - Executar o programa** **"Git Bash"**
 
 	Caso **não** tenha o programa em seu computador, realize o download do site: https://git-scm.com/download/win
+	
 		(Utilize a versão Portable)
 		
 		Git for Windows Portable ("thumbdrive edition")
