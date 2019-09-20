@@ -2,7 +2,7 @@
 
 # Para configurar o GIT em seu computador:
 
-- Passo 1 - Executar o programa **"Git Bash"**
+- **Passo 1 - Executar o programa** **"Git Bash"**
 
 	Caso **não** tenha o programa em seu computador, realize o download do site: https://git-scm.com/download/win
 		(Utilize a versão Portable)
@@ -12,14 +12,14 @@
 			- 64-bit Git for Windows Portable.
 			
 
-- Passo 2 - Escolha o diretório de trabalho no Git Bash
+- **Passo 2 - Escolha o diretório de trabalho no Git Bash**
 	
-	Exemplo: 	
-		cd e:
-		cd jogos
+		Exemplo: 	
+			cd e:
+			cd jogos
 				
 
-- Passo 3 - Configurar o proxy no git (Se estiver em uma rede com PROXY):
+- **Passo 3 - Configurar o proxy no git (Se estiver em uma rede com PROXY):**
 	
 	COMANDO PADRÃO (não executar este):
 	
@@ -50,12 +50,12 @@
 	
 	
 	
-- Passo 4 - Configurar os seus dados no git:
+- **Passo 4 - Configurar os seus dados no git:**
 	
 	
-	**git config --global user.email "you@example.com"**
+	git config --global user.email "you@example.com"
 	
-	**git config --global user.name "Your Name"**
+	git config --global user.name "Your Name"
 	
 	
 	
@@ -81,7 +81,7 @@ PRONTO. O seu git está configurado.
 ## Para iniciar um projeto existente
 
 
-Passo 1 - Configure o seu GIT
+ - **Passo 1 - Configure o seu GIT**
 
 	Exemplo: 
 	
@@ -89,10 +89,10 @@ Passo 1 - Configure o seu GIT
 		- cd jogos
 				
 				
-Passo 2 - Escolha o diretório de trabalho
+- **Passo 2 - Escolha o diretório de trabalho**
 
 	
-Passo 3 - Clonar repositorio remoto:
+- **Passo 3 - Clonar repositorio remoto:**
 
 	git clone https://github.com/laboratoriodejogos/grupo_arquivos.git   (exemplo)
 
