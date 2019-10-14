@@ -30,16 +30,25 @@ public class Personagem : MonoBehaviour
             vida = vida - 1;
             //vida--;
             Debug.Log("Tecla de espaço pressionada. (Vida = " + vida + ")");
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 150));
             GetComponent<AudioSource>().Play();
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 150));
+            
         }
 
         
         // Mover
         // Edit / Project Settings / Input
         float moverHorizontal = Input.GetAxis("Horizontal");
-        rb2d.velocity = new Vector2(moverHorizontal * velocidade, rb2d.velocity.y);
 
+        if (moverHorizontal != 0)
+        {
+            rb2d.velocity = new Vector2(moverHorizontal * velocidade, rb2d.velocity.y);
+            GetComponent<Animator>().SetBool("Parado", false);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("Parado", true);
+        }
         //Rotacionar personagem
         if (moverHorizontal < 0)
         {
