@@ -76,7 +76,7 @@
 ## DICA: 
 
 	Dicas de como configurar e utilizar os comandos GIT (AULA Prática)
-	- https://www.youtube.com/watch?v=rnJbl94ZKtY
+	https://www.youtube.com/watch?v=rnJbl94ZKtY
 	
 	
 Pronto!  
