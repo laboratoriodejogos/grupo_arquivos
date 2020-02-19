@@ -56,7 +56,7 @@
 	
 	git config --global user.email "you@example.com"
 	
-	git config --global user.name "Your Name"
+	 git config --global user.name "Your Name"
 	
 	
 	
@@ -73,10 +73,11 @@
 	
 	
 
-## DICA: 
+### DICA: 
 
-	Dicas de como configurar e utilizar os comandos GIT (AULA Prática)
-	https://www.youtube.com/watch?v=rnJbl94ZKtY
+  **Como configurar e utilizar os comandos GIT (AULA Prática):**
+	
+   https://www.youtube.com/watch?v=rnJbl94ZKtY
 	
 	
 Pronto!  
