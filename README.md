@@ -72,6 +72,12 @@
 	https://en.wikipedia.org/wiki/Percent-encoding
 	
 	
+
+## DICA: 
+
+	Dicas de como configurar e utilizar os comandos GIT (AULA Prática)
+	- https://www.youtube.com/watch?v=rnJbl94ZKtY
+	
 	
 Pronto!  
 
